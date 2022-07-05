@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<h2>ML for Software Requirements</h2>		
+	</div>
+	</header>
+	
+	<div class="results">
+		<h3 style="color:blue">Top 7 words similar to '{{output1[0]}}' </style> are :</h3>
+		<p>{{output1[1]}}</p>
+		<!-- {%if output1[0] != ""%}
+		<h3 style="color:blue"> Top 7 words similar to '{{output1[0]}}' </style> are : </h3>
+		<p>{{output1[2]}}</p>
+		<p>{{output1[4]}}</p>
+		<p>{{output1[5]}}</p>
+		{%elif output1[1] != ""%}
+		<h3 style="color:blue"> Top 7 words similar to '{{output1[1]}}' </style> are : </h3>
+		<p>{{output1[3]}}</p>
+		<p>{{output1[4]}}</p>
+		<p>{{output1[6]}}</p>
+		{%endif%} -->
+
+	</div>
+
+</body>
+</html>

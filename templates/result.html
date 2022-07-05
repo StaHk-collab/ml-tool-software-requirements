@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<!-- <div id="brandname">
+			ML App
+		</div> -->
+		<h2>ML for Software Requirements</h2>		
+	</div>
+	</header>
+	
+	<div class="results">
+
+
+	<p>{{output[0]}}</p>
+	<p>{{output[1]}}</p>
+	<!-- <p>{{output[2]}}</p>
+	<p>{{output[3]}}</p>
+	<p>{{output[4]}}</p> -->
+	<!-- <p>{{output[5]}}</p> -->
+
+	<form action="{{ url_for('result')}}" method="POST" enctype="multipart/form-data">
+		<label for="firstname" style="color:blue">Search for any word to get top 7 similar context words :</label>
+		<input type="text" id="search" name="fname" placeholder="Type here"
+		onfocus="this.placeholder=''" onblur="this.placeholder='Type here'" />
+		<button type="submit" class="btn-info" value="search">search</button>
+		<!-- <br><br> -->
+		<!-- <label for="firstname1" style="color:blue">Search for any word to get top 7 similar to 'PDF1' context words:</label>
+		<input type="text" id="search" name="fname1" placeholder="Type here">
+		<button type="submit" class="btn-info" value="search1">search</button>
+		<br><br>
+		<label for="firstname2" style="color:blue">Search for any word to get top 7 similar to 'PDF2' context words :</label>
+		<input type="text" id="search" name="fname2" placeholder="Type here">
+		<button type="submit" class="btn-info" value="search2">search</button> -->
+	</form>
+
+	<!-- {% if prediction == 5 %} -->
+	<!-- <h2 style="color:red;">Predicted</h2> -->
+	<!-- {% elif prediction == 0%}
+	<h2 style="color:blue;">Not a Spam (It is a Ham)</h2>
+	{% endif %} -->
+
+	</div>
+
+</body>
+</html>
