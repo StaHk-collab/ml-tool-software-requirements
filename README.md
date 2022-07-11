@@ -16,4 +16,4 @@ The file will take 5-6 mins to load in the system. No pre-requisites.
 
 ### Prototype Screenshots
 
-![alt text](https://github.com/[StaHk-collab]/[ml-tool-software-requirements]/blob/[main]//ss of prototype/homepage.png?raw=true)
+![alt text](https://github.com/[StaHk-collab]/[ml-tool-software-requirements]/blob/[main]//ss-of-prototype/homepage.png?raw=true)
