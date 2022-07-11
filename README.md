@@ -8,3 +8,7 @@ This project focuses on extraction of text from requirements documents. Since 99
 ### Libraries or Frameworks
 
 Flask, PyPDF2, Werkzeug, nltk, scikit-learn, gensim, re
+
+#### Executable file link : https://drive.google.com/drive/folders/1TOGHUuozTLD8O1nEObhodLiAsdM3cfFu?usp=sharing
+
+The file will take 5-6 mins to load in the system. No pre-requisites.
