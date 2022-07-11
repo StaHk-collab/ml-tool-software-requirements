@@ -13,8 +13,21 @@
 	</header>
 	
 	<div class="results">
-		<h3 style="color:blue">Top 7 words similar to '{{output1[0]}}' </style> are :</h3>
-		<p>{{output1[1]}}</p>
+		<h4 style="color:darkred">Cosine similarity of '{{output1[0]}}' in two different corpora: 
+			{{output1[1]}}	</style></h4>
+		<h3 style="color:blue">Top 7 words similar to '{{output1[0]}}' </style> are :</h3>		
+		<p style="color:red">With ref to PDF 1 : </style></p>
+		<p>{{output1[2]}}</p>
+		<p style="color:blue">With ref to PDF 2 : </style></p>
+		<p>{{output1[3]}}</p>
+		<p style="color:red">Sentence generated (with ref to PDF1) : </style></p>
+		<p>{{output1[4]}}</p>
+		<p style="color:blue">Sentence generated (with ref to PDF2) : </style></p>
+		<p>{{output1[5]}}</p>
+		<!-- <p>{{output1[5]}}</p> -->
+		<!-- <p>{{output1[6]}}</p> -->
+		<!-- <p>{{output1[7]}}</p> -->
+		<!-- <p>{{output1[8]}}</p> -->
 		<!-- {%if output1[0] != ""%}
 		<h3 style="color:blue"> Top 7 words similar to '{{output1[0]}}' </style> are : </h3>
 		<p>{{output1[2]}}</p>
