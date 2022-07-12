@@ -14,6 +14,8 @@ Flask, PyPDF2, Werkzeug, nltk, scikit-learn, gensim, re
 
 The file will take not more than 15 mins mins to load into the system. No pre-requisites. Just open the browser and search __http://127.0.0.1:5000/__ . It will show the site can't be reached till it loads completely. After 15 mins if it doesn't load automatically, try refreshing the browser.
 
+__Note:__ You may get some warning messages, just click on ok.
+
 ### Prototype Screenshots:
 
 #### 1. __HomePage__:
