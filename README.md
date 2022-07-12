@@ -12,7 +12,7 @@ Flask, PyPDF2, Werkzeug, nltk, scikit-learn, gensim, re
 
 #### Executable file link : https://drive.google.com/drive/u/1/folders/1TOGHUuozTLD8O1nEObhodLiAsdM3cfFu
 
-The file will take 5-6 mins to load in the system. No pre-requisites.
+The file will take not more than 15 mins mins to load into the system. No pre-requisites. Just open the browser and search __http://127.0.0.1:5000/__ . It will show the site can't be reached till it loads completely. After 15 mins if it doesn't load automatically, try refreshing the browser.
 
 ### Prototype Screenshots:
 
